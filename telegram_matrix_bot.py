@@ -19,7 +19,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, Conversati
 from PIL import Image, ImageDraw, ImageFont
 
 # ========= SETTINGS =========
-TOKEN = os.getenv("BOT_TOKEN")  # <-- keep your token in the BOT_TOKEN env var
+TOKEN = os.getenv("8258332433:AAFjFgWcJYQ95bc0tiauB5HgtMkeeG8TOCs")  # <-- keep your token in the BOT_TOKEN env var
 OWNER_CONTACT = "https://t.me/margosha_3811"
 
 ASK_NAME, ASK_DOB = range(2)
