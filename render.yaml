@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: matrix-grow-bot
+    env: python
+    plan: free
+    startCommand: "bash start.sh"
